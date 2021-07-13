@@ -16,26 +16,26 @@ Each protocol gets 1 point for winning a category.
 
 |                               |                                  OpenVPN                                 |     Wireguard     |
 |-------------------------------|:------------------------------------------------------------------------:|:-----------------:|
-|**Security**                   |                                                                          |                   |
+|### **Security**               |                                                                          |                   |
 | encryption and authentication | AES Blowfish Camellia ChaCha20 Poly1305 DES Triple DES GOST 28147-89 SM4 | ChaCha20 Poly1305 |
 |                       hashing |                     MD5 MD4 SHA-1 SHA-2 MDC-2 BLAKE2                     |  BLAKE2 SipHash24 |
 |                   key sharing |                       RSA  DSA  X25519  Ed25519 SM2                      |  Curve25519 HKDF  |
 |       Perfect Forward Secrecy |                                    yes                                   |        yes        |
 |                       Verdict |                                    tie:1                                 |        tie:1      |
 |                               |                                                                          |                   |
-| **Performance**               |                                                                          |                   |
+|### **Performance**            |                                                                          |                   |
 |                     OSI Layer |                                     7                                    |         3         |
 |                       Verdict |                                   lose:0                                 |        win:1      |
 |                               |                                                                          |                   |
-| **Availability**              |                                                                          |                   |
+|### **Availability**           |                                                                          |                   |
 |               Server failover |                                    yes                                   |         no        |
 |                       Verdict |                                    win:1                                 |        lose:0     |
 |                               |                                                                          |                   |
-| **Management**                |                                                                          |                   |
+|### **Management**             |                                                                          |                   |
 | Directory service integration |                                    yes                                   |         no        |
 |                       Verdict |                                    win:1                                 |        lose:0     |
 |                               |                                                                          |                   |
-| **Final score**               |                                     3                                    |         2         |
+|### **Final score**            |                                     3                                    |         2         |
 |                               |                                                                          |                   |
 |                               |                                                                          |                   |
 |                               |                                                                          |                   |
