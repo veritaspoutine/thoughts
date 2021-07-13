@@ -5,6 +5,7 @@ The purpose of this guide is to set a framework for assessing different remote a
 ## Objective
 A secure, reliable, and easily-managed remote access solution for every employee.
 
+## Method
 We are going to compare OpenVPN and Wireguard two protocols in the following categories:
 
 * Security - Strong ciphers 
@@ -39,3 +40,6 @@ Each protocol gets 1 point for winning or meeting a category.
 |                               |                                                                          |                   |
 |                               |                                                                          |                   |
 |                               |                                                                          |                   |
+
+## Conclusion
+For the time being OpenVPN makes perfect sense for any sysadmin out there to quickly set up remote access tunnel and integrate with existing directory service. On the other end, Wireguard may offer great networking performance but the lack of ability to integrate with directory servies creates a management overhead oftehn becomes a security issue down the road (Hint: Colonial Pipeline).  
